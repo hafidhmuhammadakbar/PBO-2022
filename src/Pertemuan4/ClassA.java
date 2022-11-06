@@ -8,3 +8,4 @@ public class ClassA {
         System.out.println("x = "+x);
     }
 }
+ 

@@ -2,8 +2,8 @@ package Pertemuan4;
 
 public class TestInheritance {
     public static void main(String[] args) {
-        ClassA a = new ClassA();
         ClassB b = new ClassB();
+        ClassA a = new ClassA();
 
         System.out.println(a.x);
         System.out.println(b.x);
@@ -12,3 +12,4 @@ public class TestInheritance {
         b.printX();
     }
 }
+ 
