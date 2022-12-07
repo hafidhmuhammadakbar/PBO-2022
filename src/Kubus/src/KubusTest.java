@@ -12,11 +12,11 @@ public class KubusTest {
 
     @Test
     void testHitungVolume(){
-        assertEquals(27.0, kubus.hitungVolume(3), "Hitung volume benar");
+        assertEquals(27.0, kubus.hitungVolume(3));
     }
 
     @Test
     void testHitungLuasPermukaan(){
-        assertEquals(54.0, kubus.hitungLuasPermukaan(3), "Hitung luas benar");
+        assertEquals(54.0, kubus.hitungLuasPermukaan(3));
     }
 }
