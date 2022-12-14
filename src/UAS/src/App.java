@@ -1,7 +1,10 @@
+// Class App
 public class App{
 
     public static void main(String[] args) throws Exception {
+        // Array yang berisi PegawaiTetap
         PegawaiTetap[] arrayPegawaiTetap = new PegawaiTetap[5];
+        // Array yang berisi PegawaiHonorer
         PegawaiHonorer[] arrayPegawaiHonorer = new PegawaiHonorer[5];
         arrayPegawaiTetap[0] = new PegawaiTetap(1, "Abdi Santyatmoko", "Surakarta", 4_000_000, 1_500_000);
         arrayPegawaiTetap[1] = new PegawaiTetap(2, "Adeline Felita Marwa", "Bekasi", 3_500_000, 1_500_000);

@@ -1,4 +1,6 @@
 // Class PegawaiHonorer
+//      implements Class Pegawai, artinya dapat dapat meng-override 
+//      method yang ada di Class Pegawai 
 class PegawaiHonorer implements Pegawai{
     private int idPegawai;
     private String namaPegawai;
@@ -22,6 +24,9 @@ class PegawaiHonorer implements Pegawai{
         return totalGaji;
     }
 
+    // Untuk melakukan print
+    // Method toString mengembalikan representasi String dari Objek
+    // Jika print Objek, maka java compiler akan memanggil method toString() pada Objek tsb.
     @Override
     public String toString() {
         String printPegawaiHonorer = "Pegawai Honorer\n"+
