@@ -1,3 +1,9 @@
+/*
+ * Nama     : Hafidh Muhammad Akbar
+ * NIM      : M0521026
+ * Kelas    : A
+ */
+
 // Class App
 public class App{
 
